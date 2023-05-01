@@ -20,7 +20,46 @@
 <body>
 
 
-  
+  <header class="bg-secondary container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1>🦆 Dungeon Heroes ⚔️</h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-4">
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="card">
+          <img class="rounded-top" src="https://www.worldanvil.com/media/cache/cover/uploads/images/24adc919e88eb64e320810e4a045d04c.jpg"
+            alt="Sir Miles">
+          <div class="card-body">
+            <p>
+              <b>Sir Miles of Kilometer</b>
+            </p>
+            <p>
+              <span id="miles-health">
+                100
+              </span>
+              <i id="miles-potion">- 🍼</i></p>
+            <div>
+              
+              <button 
+              class="btn btn-dark"
+              onclick="shouldMilesDrinkAPotion()"
+              >Drink Potion</button>
+              <button 
+              class="btn btn-primary"
+              onclick="attackMiles()"
+              >Attack Miles 👺</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
 
 
   <script src="app.js"></script>
